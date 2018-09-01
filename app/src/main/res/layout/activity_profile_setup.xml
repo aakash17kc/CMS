@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileSetupActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Image"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/camera"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/choose_image"
+      />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/image_upload_progess"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:id="@+id/profileName"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_image"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/set_image"/>
+
+</LinearLayout>

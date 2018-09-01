@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "83058111556",
+    "firebase_url": "https://carmel-management-system-20.firebaseio.com",
+    "project_id": "carmel-management-system-20",
+    "storage_bucket": "carmel-management-system-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83058111556:android:c5026dbc92fbfa5f",
+        "android_client_info": {
+          "package_name": "com.androhuman.www.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83058111556-qmedsmmefj29pt5iug8cqls2vht5pm7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androhuman.www.cms",
+            "certificate_hash": "3efdb5efaf1b73f6d0b57e33099c5aae18fc9709"
+          }
+        },
+        {
+          "client_id": "83058111556-datlosj6vs625j5bn2t48fnutkk56690.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDADHnw0WgGgUpE0OSklUrmwwiGO-SaoXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83058111556-datlosj6vs625j5bn2t48fnutkk56690.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
